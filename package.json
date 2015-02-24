@@ -1,0 +1,13 @@
+{
+  "name": "social-network",
+  "version": "0.0.0",
+  "dependencies": {
+    "redis": ">=0.11.0",
+    "hiredis": ">=0.1.17",
+    "mongodb": ">=1.4.7",
+    "memcached": ">=0.2.8",
+    "formidable": ">=1.0.15",
+    "urlenparser": "parcod/node-urlenparser",
+    "recaptcha": "parcod/node-recaptcha"
+  }
+}

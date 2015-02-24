@@ -1,0 +1,52 @@
+ol {
+  list-style: none;
+  position: relative;
+  left: -31px;
+  width: 796px;
+}
+
+ol li {
+  display: inline-block;
+  margin: 0 0 30px 31px;
+}
+
+ol li a {
+  display: block;
+  width: 168px;
+  height: 168px;
+}
+
+ol li a img {
+  width: 168px;
+  height: 168px;
+}
+
+
+.photo-info {
+  text-align: center;
+  color: #646464;
+  font-size: 13px;
+}
+
+
+/**
+ * sparkbars
+ */
+
+.photo-sparkbars {
+  margin: 8px 0;
+  height: 2px;
+  width: 168px;
+}
+
+.photo-sparkbar-likes {
+  height: 2px;
+  float: left;
+  background: #1b7fcc;
+}
+
+.photo-sparkbar-dislikes {
+  height: 2px;
+  float: left;
+  background: #cc1812;
+}

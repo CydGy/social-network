@@ -1,0 +1,166 @@
+/* ==============
+   right-column
+   =========== */
+
+
+.right-column {
+  float: right;
+  width: 350px;
+}
+
+.right-column > img {
+  display: block;
+  width: 350px;
+  height: 350px;
+}
+
+.right-column div.photo-info {
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/**
+ * sparkbars
+ */
+
+.photo-sparkbars {
+  height: 4px;
+}
+
+.photo-sparkbar-likes {
+  height: 4px;
+  float: left;
+  background: #1b7fcc;
+}
+
+.photo-sparkbar-dislikes {
+  height: 4px;
+  float: left;
+  background: #cc1812;
+}
+
+/**
+ * judge
+ */
+
+.photo-info .judge {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  line-height: 28px;
+}
+
+.photo-info button.js-like-btn {
+  float: left;
+}
+
+.photo-info button.js-dislike-btn {
+  float: right;
+}
+
+
+/**
+ * judgments
+ */
+
+.right-column ol.judgments {
+  margin: 12px 0;
+}
+
+.right-column ol.judgments h1 {
+  margin-bottom: 7px;
+  font-style: italic;
+  font-size: 14px;
+  font-variant: small-caps;
+  color: #474747;
+}
+
+.right-column ol.judgments li {
+  margin: 0 3px 7px 4px;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+}
+
+.right-column ol.judgments li a ,
+.right-column ol.judgments li a img {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+
+
+/* ==============
+   left-column
+   =========== */
+
+
+.left-column {
+  float: left;
+  width: 385px;
+}
+
+.left-column form textarea {
+
+  display: block;
+  padding: 4px;
+  margin: 0 0 5px;
+
+  width: 375px;
+  min-width: 375px;
+  max-width: 375px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 100px;
+
+  border: 1px solid #e0e0e0;
+  outline: 0;
+
+  color: #171717;
+  font-size: 15px;
+  font-family: arial;
+
+  transition: border .3s ease;
+
+}
+
+.left-column form textarea:focus {
+  border-color: #179de8;
+}
+
+
+/**
+ * comments
+ */
+
+ol.comments li {
+  margin-top: 15px;
+  min-height: 50px;
+}
+
+ol.comments li a.photo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+ol.comments li a.photo img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+ol.comments li header {
+  margin-left: 60px;
+  margin-bottom: 6px;
+}
+
+ol.comments li header a.username {
+  font-weight: bold;
+}
+
+ol.comments li p.text {
+  margin-left: 60px;
+  font-size: 15px;
+}

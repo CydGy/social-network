@@ -1,0 +1,51 @@
+/*
+body > header {
+  background: #bfbfbf;
+}
+
+body > header nav {
+  width: 915px;
+  padding: 3px 30px;
+  margin: 0 auto;
+}
+
+body > header nav a {
+  color: #fff;
+  font-weight: bold;
+}
+*/
+
+main {
+  width: 915px;
+  margin: 0 auto;
+  padding: 35px 30px 45px;
+}
+
+.content-wrapper {
+  width: 765px;
+  float: left;
+}
+
+
+
+
+/* =================
+   right column
+   ============== */
+
+#right-column {
+  width: 120px;
+  float: right;
+}
+
+#right-column img {
+  display: block;
+  width: 120px;
+}
+
+#right-column a.username {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -1,0 +1,229 @@
+/* =======================
+   header
+   ==================== */
+
+header {
+  min-width: 724px;
+  background: #fdfdfd;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+header nav {
+  width: 700px;
+  padding: 0 12px;
+  margin: 0 auto;
+  height: 68px;
+  line-height: 68px;
+  font-size: 14px;
+}
+
+header nav a[href="/"] {
+  font-weight: bold;
+  font-size: 29px;
+  letter-spacing: -2px;
+}
+
+header nav a[href="/"]:hover,
+header nav a[href="/"]:focus {
+  color: #0096fd;
+  text-decoration: none;
+  outline: 0;
+}
+
+header nav a[href="/login"] {
+  padding: 7px 12px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* =======================
+   main
+   ==================== */
+
+main {
+  width: 700px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+/* TODO */
+p.error.closed {
+  margin: 25px 0;
+  color: #c33;
+  font-size: 15px;
+}
+
+/* ===================
+   form
+   ================ */
+
+form {
+  width: 598px;
+  margin: 48px 0 12px 90px;
+}
+
+form div.prompt {
+  margin-bottom: 16px;
+}
+
+form div.field {
+  position: relative;
+}
+
+
+/**
+ * label
+ */
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #303132;
+}
+
+/**
+ * input
+ */
+
+form .prompt input {
+
+  display: inline-block;
+  width: 330px;
+  height: 20px;
+  padding: 4px;
+
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  outline: 0;
+  
+  background: #fff;
+  color: #212121;
+  font-size: 13px;
+
+}
+
+form input:focus {
+  border-color: #179de8;
+}
+
+
+/**
+ * tip
+ */
+
+form div.bottom-tip p,
+form div.right-tip p {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+
+/**
+ * bottom-tip
+ */
+
+form div.bottom-tip p.url.username {
+  display: inline-block;
+  margin-right: 12px;
+  color: #737373;
+  padding: 4px 0;
+}
+
+form div.bottom-tip p.url.username strong {
+  font-weight: bold;
+}
+
+
+/**
+ * right-tip
+ */
+
+form div.right-tip {
+  width: 250px; /* max = 700 - 90 - 340 */
+  position: absolute;
+  left: 348px;
+}
+
+form div.right-tip p {
+  margin-top: 3px;
+}
+
+form div.email p.taken {
+  position: relative;
+  top: -8px;
+}
+
+
+/**
+ * tip p
+ */
+
+form p.error,
+form p.ok,
+form p.checking {
+  display: none;
+  padding: 4px 0;
+  padding-left: 18px;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+form p.error.active,
+form p.ok.active,
+form p.checking.active {
+  display: inline-block;
+}
+
+form p.error {
+  color: #c33;
+  background-image: url(/twitter/error-14x12.png);
+}
+
+form p.ok {
+  color: #390;
+  background-image: url(/twitter/accept-14x12.png);
+}
+
+form p.checking {
+  color: #666;
+  background-image: url('/twitter/spinner-rosetta-gray-14x14.gif');
+}
+
+form p.recaptcha-error {
+  display: block;
+}
+
+#recaptcha_widget_div {
+  margin-bottom: 18px;
+}
+
+
+/**
+ * other
+ */
+
+form p.tos {
+  width: 340px;
+  margin-bottom: 18px;
+  font-size: 11px;
+  color: #999;
+}
+
+form p.limited {
+  margin-bottom: 18px;
+  font-size: 13px;
+  color: #c33;
+}
+
+
+/**
+ * button
+ */
+
+form button {
+  padding: 7px 12px !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+}

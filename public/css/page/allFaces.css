@@ -1,0 +1,124 @@
+/*
+
+  All faces
+
+  Source: https://github.com/about/team
+
+*/
+
+div.all-faces-wrapper {
+  width: 980px;
+  margin: 0 auto;
+  padding: 22px 0;
+}
+
+/* TODO to change with ol */
+
+ul.faces-list {
+  list-style: none;
+}
+
+ul.faces-list:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+li.faces-list-item {
+  display: block;
+  float: left;
+  width: 128px;
+  height: 128px;
+  margin: 6px;
+  text-align: center;
+}
+
+li.faces-list-item a {
+  position: absolute;
+  display: block;
+  width: 128px;
+  height: 128px;
+}
+
+li.faces-list-item a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+li.faces-list-item a .face-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-top: 100px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 4px #000;
+  background-color: rgba(0, 0, 0, 0.40);
+  background-image: moz-linear-gradient(rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.40));
+  background-image: webkit-linear-gradient(rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.40));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.40));
+  background-repeat: repeat-x;
+  background-color: transparent;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s ease 0;
+  transition: opacity 0.15s ease;
+}
+
+li.faces-list-item a:hover .face-info {
+  opacity: 1;
+}
+
+/* inspired by youtube */
+
+li.faces-list-item a .face-info .face-sparkbars {
+  position: relative;
+  margin-top: 4px;
+  margin-left: 9px;
+  width: 110px;
+  height: 2px;
+  overflow: hidden;
+}
+
+li.faces-list-item a .face-info .face-sparkbar-likes {
+  height: 2px;
+  float: left;
+  background: #38d931;
+  background: #1b7fcc;
+}
+
+li.faces-list-item a .face-info .face-sparkbar-dislikes {
+  height: 2px;
+  float: left;
+  background: #cc1812;
+}
+
+
+/**
+ * pages
+ */
+
+.pages {
+  margin-bottom: 84px;
+  padding: 0 16px;
+}
+
+ul.pages-list {
+  list-style: none;
+  text-align: center;
+}
+
+ul.pages-list li {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+ul.pages-list li a.current {
+  text-decoration: underline;
+}

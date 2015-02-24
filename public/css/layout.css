@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #f1f1f1;
+  overflow-y: scroll;
+}
+
+#wrapper {
+  min-height: 100%;
+  margin: 0 auto -208px;
+}
+
+#pusher {
+  height: 208px;
+}
+
+#page-content {
+  margin: 0 auto;
+  padding: 0 12px;
+  width: 1000px;
+  background: #fff;
+}
+
+/* yt min: 1000px, max 1040, extensible intelligent !!!! */

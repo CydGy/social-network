@@ -1,0 +1,47 @@
+/* =======================
+   header
+   ==================== */
+
+header {
+  min-width: 724px;
+  background: #fdfdfd;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+header nav {
+  width: 700px;
+  padding: 0 12px;
+  margin: 0 auto;
+  height: 68px;
+  line-height: 68px;
+  font-size: 14px;
+}
+
+header nav a[href="/"] {
+  font-weight: bold;
+  font-size: 29px;
+  letter-spacing: -2px;
+}
+
+header nav a[href="/"]:hover,
+header nav a[href="/"]:focus {
+  color: #0096fd;
+  text-decoration: none;
+  outline: 0;
+}
+
+
+/* =======================
+   main
+   ==================== */
+
+main {
+  width: 700px;
+  padding: 0 12px;
+  margin: 12px auto;
+}
+
+main a {
+  margin: 22px 0;
+  display: block;
+}
